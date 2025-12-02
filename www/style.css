@@ -77,10 +77,7 @@ body{
         transform: rotate(360deg);
     }
 }
-
-
-/* Input Filed Start*/
-
+# Input styles
 #TextInput {
     background-color: #181818a8;
     border-color: blue;
@@ -173,8 +170,6 @@ body{
   }
   
   
-  /* Input Filed End*/
-
   /* Chat Box Start */
 
 .chat-canvas{
@@ -202,4 +197,4 @@ body{
   max-width: 80%;
   width: auto;
 }
-/* Chat Box Start End*/
+/* Chat Box End */

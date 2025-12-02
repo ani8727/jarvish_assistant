@@ -2,7 +2,6 @@ $(document).ready(function () {
 
 
 
-    // Display Speak Message
     eel.expose(DisplayMessage)
     function DisplayMessage(message) {
 
@@ -11,7 +10,6 @@ $(document).ready(function () {
 
     }
 
-    // Display hood
     eel.expose(ShowHood)
     function ShowHood() {
         $("#Oval").attr("hidden", false);
@@ -27,7 +25,6 @@ $(document).ready(function () {
             <div class="sender_message">${message}</div>
         </div>`; 
     
-            // Scroll to the bottom of the chat box
             chatBox.scrollTop = chatBox.scrollHeight;
         }
     }
@@ -43,7 +40,6 @@ $(document).ready(function () {
             </div>
         </div>`; 
     
-            // Scroll to the bottom of the chat box
             chatBox.scrollTop = chatBox.scrollHeight;
         }
         
